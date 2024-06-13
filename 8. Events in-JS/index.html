@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h3>Events in JS</h3>
+        <p>the change in state of an object is known as an Events.<br>
+            Events are fired to notify code of "interesting changes" that may affect code execution.
+        </p>
+        <ul>
+            <li>Mouse Events (click, doduble click etc.)</li>
+            <li>keyboard events (keypress, keyup, keydown)</li>
+            <li>Form Events (Submit etc.)</li>
+            <li>Print event & many more</li>
+        </ul>
+        <button id="btn1">Click Me!</button>
+        <br>
+        <div id="box">This is a box</div>
+
+        <h3>Event Handling in JS <br></h3>
+        <code>node.event = () => {
+            ..................
+        }
+        </code>
+        <button id="btn2">Click Me 2 Times!</button>
+
+        <h3>Event Object</h3>
+        <p>It is special object that has details about the event. <br> All the handlers have access to the Event
+            Object's properties and methods <br> <code>node.event = (e) => {
+            ..............
+        }<br>e.target, e.type, e.clientX,e.clientY</code></p>
+        <button id="btn3">this is a 3rd button</button>
+        <br>
+        <h3>Event Listeners</h3>
+        <code>node.addEventListener(event, callback)<br >
+        node.removeEventListener(event, cllback)</code>
+        <p>*Note : the callback reserence should be same to remove</p>
+        <button id="btn4">this is the 4th btn</button>
+
+    </div>
+
+    <h3>Toggle button</h3>
+    <button id="btn5">Change Mode</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
