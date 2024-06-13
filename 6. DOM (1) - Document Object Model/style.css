@@ -1,0 +1,41 @@
+/* #h1 {
+    color: blue;
+    background-color: aqua;
+    text-align: left;
+
+}
+.class1{
+    color: blue;
+    background-color: aqua;
+    text-align: left;
+
+}
+h2 {
+    color: rgb(62, 47, 28);
+    background-color: rgb(171, 229, 114);
+}
+
+button {
+    color: green;
+    background-color: red;
+    position: absolute;
+} */
+
+
+
+
+/* h1 {
+    visibility:hidden
+} */
+
+
+
+.box {
+    height: 100px;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
