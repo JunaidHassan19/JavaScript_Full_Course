@@ -33,4 +33,4 @@ Welcome to the **JavaScript Essentials Course** by Junaid Hassan! This course is
 Begin your journey with the course materials by cloning this repository:
 
 ```bash
-[https://github.com/JunaidHassan19/JavaScript_Full_Course]
+github.com/JunaidHassan19/JavaScript_Full_Course/tree/main)
